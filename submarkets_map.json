@@ -1,0 +1,1934 @@
+{
+ "submarkets": [
+  {
+   "name": "Manhattan",
+   "metro": "New York",
+   "state": "NY",
+   "region": "NE",
+   "zips": [
+    "10025",
+    "10128",
+    "10023"
+   ],
+   "cbsa": "35620",
+   "inc": 105
+  },
+  {
+   "name": "Brooklyn \u2013 W'burg/Downtown",
+   "metro": "New York",
+   "state": "NY",
+   "region": "NE",
+   "zips": [
+    "11211",
+    "11201",
+    "11249"
+   ],
+   "cbsa": "35620",
+   "inc": 95
+  },
+  {
+   "name": "Queens \u2013 LIC/Astoria",
+   "metro": "New York",
+   "state": "NY",
+   "region": "NE",
+   "zips": [
+    "11101",
+    "11106",
+    "11102"
+   ],
+   "cbsa": "35620",
+   "inc": 88
+  },
+  {
+   "name": "Jersey City / Hoboken",
+   "metro": "New York",
+   "state": "NJ",
+   "region": "NE",
+   "zips": [
+    "07302",
+    "07030",
+    "07310"
+   ],
+   "cbsa": "35620",
+   "inc": 110
+  },
+  {
+   "name": "Newark / North Jersey",
+   "metro": "New York",
+   "state": "NJ",
+   "region": "NE",
+   "zips": [
+    "07102",
+    "07104"
+   ],
+   "cbsa": "35620",
+   "inc": 70
+  },
+  {
+   "name": "Cambridge / Somerville",
+   "metro": "Boston",
+   "state": "MA",
+   "region": "NE",
+   "zips": [
+    "02139",
+    "02143",
+    "02144"
+   ],
+   "cbsa": "14460",
+   "inc": 115
+  },
+  {
+   "name": "Seaport / Downtown Boston",
+   "metro": "Boston",
+   "state": "MA",
+   "region": "NE",
+   "zips": [
+    "02210",
+    "02110",
+    "02111"
+   ],
+   "cbsa": "14460",
+   "inc": 120
+  },
+  {
+   "name": "Quincy / South Shore",
+   "metro": "Boston",
+   "state": "MA",
+   "region": "NE",
+   "zips": [
+    "02169",
+    "02184"
+   ],
+   "cbsa": "14460",
+   "inc": 95
+  },
+  {
+   "name": "Center City Philly",
+   "metro": "Philadelphia",
+   "state": "PA",
+   "region": "NE",
+   "zips": [
+    "19102",
+    "19103",
+    "19107"
+   ],
+   "cbsa": "37980",
+   "inc": 80
+  },
+  {
+   "name": "University City / Fishtown",
+   "metro": "Philadelphia",
+   "state": "PA",
+   "region": "NE",
+   "zips": [
+    "19104",
+    "19125"
+   ],
+   "cbsa": "37980",
+   "inc": 72
+  },
+  {
+   "name": "King of Prussia / Main Line",
+   "metro": "Philadelphia",
+   "state": "PA",
+   "region": "NE",
+   "zips": [
+    "19406",
+    "19087"
+   ],
+   "cbsa": "37980",
+   "inc": 105
+  },
+  {
+   "name": "Hartford",
+   "metro": "Hartford",
+   "state": "CT",
+   "region": "NE",
+   "zips": [
+    "06103",
+    "06106"
+   ],
+   "cbsa": "25540",
+   "inc": 78
+  },
+  {
+   "name": "Buffalo",
+   "metro": "Buffalo",
+   "state": "NY",
+   "region": "NE",
+   "zips": [
+    "14201",
+    "14222"
+   ],
+   "cbsa": "15380",
+   "inc": 62
+  },
+  {
+   "name": "Providence",
+   "metro": "Providence",
+   "state": "RI",
+   "region": "NE",
+   "zips": [
+    "02903",
+    "02906"
+   ],
+   "cbsa": "39300",
+   "inc": 75
+  },
+  {
+   "name": "Pittsburgh \u2013 East End",
+   "metro": "Pittsburgh",
+   "state": "PA",
+   "region": "NE",
+   "zips": [
+    "15206",
+    "15217"
+   ],
+   "cbsa": "38300",
+   "inc": 68
+  },
+  {
+   "name": "Arlington / Alexandria",
+   "metro": "Washington DC",
+   "state": "VA",
+   "region": "NE",
+   "zips": [
+    "22201",
+    "22314",
+    "22302"
+   ],
+   "cbsa": "47900",
+   "inc": 125
+  },
+  {
+   "name": "District / Navy Yard",
+   "metro": "Washington DC",
+   "state": "DC",
+   "region": "NE",
+   "zips": [
+    "20003",
+    "20024",
+    "20002"
+   ],
+   "cbsa": "47900",
+   "inc": 108
+  },
+  {
+   "name": "Silver Spring / Bethesda",
+   "metro": "Washington DC",
+   "state": "MD",
+   "region": "NE",
+   "zips": [
+    "20910",
+    "20814"
+   ],
+   "cbsa": "47900",
+   "inc": 118
+  },
+  {
+   "name": "Inner Harbor / Canton",
+   "metro": "Baltimore",
+   "state": "MD",
+   "region": "NE",
+   "zips": [
+    "21230",
+    "21224"
+   ],
+   "cbsa": "12580",
+   "inc": 82
+  },
+  {
+   "name": "Midtown / Buckhead",
+   "metro": "Atlanta",
+   "state": "GA",
+   "region": "SE",
+   "zips": [
+    "30309",
+    "30305",
+    "30326"
+   ],
+   "cbsa": "12060",
+   "inc": 85
+  },
+  {
+   "name": "Sandy Springs / Perimeter",
+   "metro": "Atlanta",
+   "state": "GA",
+   "region": "SE",
+   "zips": [
+    "30328",
+    "30338",
+    "30350"
+   ],
+   "cbsa": "12060",
+   "inc": 92
+  },
+  {
+   "name": "Gwinnett / Duluth",
+   "metro": "Atlanta",
+   "state": "GA",
+   "region": "SE",
+   "zips": [
+    "30096",
+    "30097",
+    "30043"
+   ],
+   "cbsa": "12060",
+   "inc": 80
+  },
+  {
+   "name": "South Atlanta / Airport",
+   "metro": "Atlanta",
+   "state": "GA",
+   "region": "SE",
+   "zips": [
+    "30349",
+    "30291"
+   ],
+   "cbsa": "12060",
+   "inc": 62
+  },
+  {
+   "name": "South End / Uptown CLT",
+   "metro": "Charlotte",
+   "state": "NC",
+   "region": "SE",
+   "zips": [
+    "28203",
+    "28202",
+    "28204"
+   ],
+   "cbsa": "16740",
+   "inc": 88
+  },
+  {
+   "name": "University / Northlake",
+   "metro": "Charlotte",
+   "state": "NC",
+   "region": "SE",
+   "zips": [
+    "28262",
+    "28269"
+   ],
+   "cbsa": "16740",
+   "inc": 78
+  },
+  {
+   "name": "Downtown Raleigh / N Hills",
+   "metro": "Raleigh",
+   "state": "NC",
+   "region": "SE",
+   "zips": [
+    "27601",
+    "27609",
+    "27604"
+   ],
+   "cbsa": "39580",
+   "inc": 90
+  },
+  {
+   "name": "Durham / RTP",
+   "metro": "Raleigh",
+   "state": "NC",
+   "region": "SE",
+   "zips": [
+    "27701",
+    "27713"
+   ],
+   "cbsa": "39580",
+   "inc": 85
+  },
+  {
+   "name": "The Gulch / Midtown Nash",
+   "metro": "Nashville",
+   "state": "TN",
+   "region": "SE",
+   "zips": [
+    "37203",
+    "37212"
+   ],
+   "cbsa": "34980",
+   "inc": 82
+  },
+  {
+   "name": "Murfreesboro / SE Nash",
+   "metro": "Nashville",
+   "state": "TN",
+   "region": "SE",
+   "zips": [
+    "37128",
+    "37129",
+    "37130"
+   ],
+   "cbsa": "34980",
+   "inc": 76
+  },
+  {
+   "name": "Downtown Tampa / Westshore",
+   "metro": "Tampa",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "33602",
+    "33607",
+    "33609"
+   ],
+   "cbsa": "45300",
+   "inc": 75
+  },
+  {
+   "name": "Wesley Chapel / New Tampa",
+   "metro": "Tampa",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "33543",
+    "33544",
+    "33647"
+   ],
+   "cbsa": "45300",
+   "inc": 82
+  },
+  {
+   "name": "St. Pete / Clearwater",
+   "metro": "Tampa",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "33701",
+    "33705",
+    "33760"
+   ],
+   "cbsa": "45300",
+   "inc": 72
+  },
+  {
+   "name": "Lake Nona / SE Orlando",
+   "metro": "Orlando",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "32827",
+    "32832"
+   ],
+   "cbsa": "36740",
+   "inc": 80
+  },
+  {
+   "name": "Winter Park / Maitland",
+   "metro": "Orlando",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "32789",
+    "32751"
+   ],
+   "cbsa": "36740",
+   "inc": 78
+  },
+  {
+   "name": "Brickell / Downtown Miami",
+   "metro": "Miami",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "33131",
+    "33130",
+    "33132"
+   ],
+   "cbsa": "33100",
+   "inc": 78
+  },
+  {
+   "name": "Fort Lauderdale",
+   "metro": "Miami",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "33301",
+    "33304"
+   ],
+   "cbsa": "33100",
+   "inc": 72
+  },
+  {
+   "name": "West Palm Beach",
+   "metro": "Miami",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "33401",
+    "33407"
+   ],
+   "cbsa": "33100",
+   "inc": 76
+  },
+  {
+   "name": "St. Johns / South Jax",
+   "metro": "Jacksonville",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "32259",
+    "32258",
+    "32256"
+   ],
+   "cbsa": "27260",
+   "inc": 78
+  },
+  {
+   "name": "Jacksonville Urban Core",
+   "metro": "Jacksonville",
+   "state": "FL",
+   "region": "SE",
+   "zips": [
+    "32202",
+    "32204"
+   ],
+   "cbsa": "27260",
+   "inc": 62
+  },
+  {
+   "name": "Charleston",
+   "metro": "Charleston",
+   "state": "SC",
+   "region": "SE",
+   "zips": [
+    "29403",
+    "29414",
+    "29492"
+   ],
+   "cbsa": "16700",
+   "inc": 80
+  },
+  {
+   "name": "Greenville",
+   "metro": "Greenville",
+   "state": "SC",
+   "region": "SE",
+   "zips": [
+    "29601",
+    "29607"
+   ],
+   "cbsa": "24860",
+   "inc": 70
+  },
+  {
+   "name": "Savannah",
+   "metro": "Savannah",
+   "state": "GA",
+   "region": "SE",
+   "zips": [
+    "31401",
+    "31419"
+   ],
+   "cbsa": "42340",
+   "inc": 66
+  },
+  {
+   "name": "Huntsville",
+   "metro": "Huntsville",
+   "state": "AL",
+   "region": "SE",
+   "zips": [
+    "35801",
+    "35806"
+   ],
+   "cbsa": "26620",
+   "inc": 78
+  },
+  {
+   "name": "Birmingham",
+   "metro": "Birmingham",
+   "state": "AL",
+   "region": "SE",
+   "zips": [
+    "35205",
+    "35209"
+   ],
+   "cbsa": "13820",
+   "inc": 62
+  },
+  {
+   "name": "Memphis",
+   "metro": "Memphis",
+   "state": "TN",
+   "region": "SE",
+   "zips": [
+    "38104",
+    "38117"
+   ],
+   "cbsa": "32820",
+   "inc": 58
+  },
+  {
+   "name": "Knoxville",
+   "metro": "Knoxville",
+   "state": "TN",
+   "region": "SE",
+   "zips": [
+    "37902",
+    "37919"
+   ],
+   "cbsa": "28940",
+   "inc": 66
+  },
+  {
+   "name": "Chattanooga",
+   "metro": "Chattanooga",
+   "state": "TN",
+   "region": "SE",
+   "zips": [
+    "37402",
+    "37421"
+   ],
+   "cbsa": "16860",
+   "inc": 64
+  },
+  {
+   "name": "Richmond",
+   "metro": "Richmond",
+   "state": "VA",
+   "region": "SE",
+   "zips": [
+    "23220",
+    "23230"
+   ],
+   "cbsa": "40060",
+   "inc": 76
+  },
+  {
+   "name": "Norfolk / Virginia Beach",
+   "metro": "Norfolk",
+   "state": "VA",
+   "region": "SE",
+   "zips": [
+    "23451",
+    "23462",
+    "23510"
+   ],
+   "cbsa": "47260",
+   "inc": 72
+  },
+  {
+   "name": "New Orleans",
+   "metro": "New Orleans",
+   "state": "LA",
+   "region": "SE",
+   "zips": [
+    "70115",
+    "70130"
+   ],
+   "cbsa": "35380",
+   "inc": 58
+  },
+  {
+   "name": "Louisville",
+   "metro": "Louisville",
+   "state": "KY",
+   "region": "SE",
+   "zips": [
+    "40204",
+    "40222"
+   ],
+   "cbsa": "31140",
+   "inc": 64
+  },
+  {
+   "name": "McKinney / Allen",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "75069",
+    "75070",
+    "75071",
+    "75002",
+    "75013"
+   ],
+   "cbsa": "19100",
+   "inc": 105
+  },
+  {
+   "name": "Frisco / Prosper",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "75033",
+    "75034",
+    "75035",
+    "75036",
+    "75078"
+   ],
+   "cbsa": "19100",
+   "inc": 120
+  },
+  {
+   "name": "Denton / Little Elm",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "76201",
+    "76205",
+    "76208",
+    "76209",
+    "75068"
+   ],
+   "cbsa": "19100",
+   "inc": 72
+  },
+  {
+   "name": "Plano / Richardson",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "75023",
+    "75074",
+    "75075",
+    "75080",
+    "75081"
+   ],
+   "cbsa": "19100",
+   "inc": 95
+  },
+  {
+   "name": "Las Colinas / Irving",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "75038",
+    "75039",
+    "75062",
+    "75063"
+   ],
+   "cbsa": "19100",
+   "inc": 85
+  },
+  {
+   "name": "Uptown / Oak Lawn",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "75201",
+    "75204",
+    "75219",
+    "75235"
+   ],
+   "cbsa": "19100",
+   "inc": 95
+  },
+  {
+   "name": "Fort Worth / Alliance",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "76131",
+    "76137",
+    "76177",
+    "76244",
+    "76248"
+   ],
+   "cbsa": "19100",
+   "inc": 92
+  },
+  {
+   "name": "SW Fort Worth / Chisholm",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "76123",
+    "76132",
+    "76133",
+    "76028"
+   ],
+   "cbsa": "19100",
+   "inc": 75
+  },
+  {
+   "name": "Mansfield / Midlothian",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "76063",
+    "76065",
+    "76084"
+   ],
+   "cbsa": "19100",
+   "inc": 98
+  },
+  {
+   "name": "Grand Prairie / Arlington",
+   "metro": "DFW",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "75050",
+    "75052",
+    "76010",
+    "76014",
+    "76018"
+   ],
+   "cbsa": "19100",
+   "inc": 70
+  },
+  {
+   "name": "North Austin / Domain",
+   "metro": "Austin",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "78727",
+    "78758",
+    "78759",
+    "78753"
+   ],
+   "cbsa": "12420",
+   "inc": 98
+  },
+  {
+   "name": "East Austin / Riverside",
+   "metro": "Austin",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "78702",
+    "78741",
+    "78744"
+   ],
+   "cbsa": "12420",
+   "inc": 82
+  },
+  {
+   "name": "Round Rock / Pflugerville",
+   "metro": "Austin",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "78664",
+    "78665",
+    "78660",
+    "78681"
+   ],
+   "cbsa": "12420",
+   "inc": 92
+  },
+  {
+   "name": "San Marcos / Kyle",
+   "metro": "Austin",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "78666",
+    "78640"
+   ],
+   "cbsa": "12420",
+   "inc": 62
+  },
+  {
+   "name": "NW San Antonio / Medical",
+   "metro": "San Antonio",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "78229",
+    "78240",
+    "78249",
+    "78250"
+   ],
+   "cbsa": "41700",
+   "inc": 62
+  },
+  {
+   "name": "Stone Oak / Far N Central",
+   "metro": "San Antonio",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "78258",
+    "78259",
+    "78260",
+    "78261"
+   ],
+   "cbsa": "41700",
+   "inc": 88
+  },
+  {
+   "name": "New Braunfels / Schertz",
+   "metro": "San Antonio",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "78130",
+    "78132",
+    "78154",
+    "78108"
+   ],
+   "cbsa": "41700",
+   "inc": 80
+  },
+  {
+   "name": "Katy / Cypress",
+   "metro": "Houston",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "77449",
+    "77450",
+    "77494",
+    "77433"
+   ],
+   "cbsa": "26420",
+   "inc": 95
+  },
+  {
+   "name": "The Woodlands / Spring",
+   "metro": "Houston",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "77380",
+    "77381",
+    "77386",
+    "77373",
+    "77388"
+   ],
+   "cbsa": "26420",
+   "inc": 105
+  },
+  {
+   "name": "Inner Loop / Montrose",
+   "metro": "Houston",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "77006",
+    "77098",
+    "77019"
+   ],
+   "cbsa": "26420",
+   "inc": 88
+  },
+  {
+   "name": "Energy Corridor",
+   "metro": "Houston",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "77077",
+    "77079"
+   ],
+   "cbsa": "26420",
+   "inc": 92
+  },
+  {
+   "name": "Pearland / Friendswood",
+   "metro": "Houston",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "77584",
+    "77546"
+   ],
+   "cbsa": "26420",
+   "inc": 90
+  },
+  {
+   "name": "El Paso",
+   "metro": "El Paso",
+   "state": "TX",
+   "region": "TX",
+   "zips": [
+    "79912",
+    "79936"
+   ],
+   "cbsa": "21340",
+   "inc": 55
+  },
+  {
+   "name": "Lincoln Park / Lakeview",
+   "metro": "Chicago",
+   "state": "IL",
+   "region": "MW",
+   "zips": [
+    "60614",
+    "60657"
+   ],
+   "cbsa": "16980",
+   "inc": 95
+  },
+  {
+   "name": "Loop / South Loop",
+   "metro": "Chicago",
+   "state": "IL",
+   "region": "MW",
+   "zips": [
+    "60601",
+    "60605",
+    "60607"
+   ],
+   "cbsa": "16980",
+   "inc": 100
+  },
+  {
+   "name": "O'Hare / Schaumburg",
+   "metro": "Chicago",
+   "state": "IL",
+   "region": "MW",
+   "zips": [
+    "60173",
+    "60193",
+    "60018"
+   ],
+   "cbsa": "16980",
+   "inc": 82
+  },
+  {
+   "name": "Naperville / DuPage",
+   "metro": "Chicago",
+   "state": "IL",
+   "region": "MW",
+   "zips": [
+    "60540",
+    "60563"
+   ],
+   "cbsa": "16980",
+   "inc": 105
+  },
+  {
+   "name": "Uptown / Downtown MPLS",
+   "metro": "Minneapolis",
+   "state": "MN",
+   "region": "MW",
+   "zips": [
+    "55408",
+    "55401",
+    "55403"
+   ],
+   "cbsa": "33460",
+   "inc": 85
+  },
+  {
+   "name": "St. Paul / Suburbs",
+   "metro": "Minneapolis",
+   "state": "MN",
+   "region": "MW",
+   "zips": [
+    "55102",
+    "55114"
+   ],
+   "cbsa": "33460",
+   "inc": 80
+  },
+  {
+   "name": "Short North / Downtown CBUS",
+   "metro": "Columbus",
+   "state": "OH",
+   "region": "MW",
+   "zips": [
+    "43201",
+    "43215"
+   ],
+   "cbsa": "18140",
+   "inc": 72
+  },
+  {
+   "name": "Dublin / Polaris",
+   "metro": "Columbus",
+   "state": "OH",
+   "region": "MW",
+   "zips": [
+    "43017",
+    "43016",
+    "43240"
+   ],
+   "cbsa": "18140",
+   "inc": 95
+  },
+  {
+   "name": "Cincinnati",
+   "metro": "Cincinnati",
+   "state": "OH",
+   "region": "MW",
+   "zips": [
+    "45202",
+    "45219"
+   ],
+   "cbsa": "17140",
+   "inc": 68
+  },
+  {
+   "name": "Cleveland",
+   "metro": "Cleveland",
+   "state": "OH",
+   "region": "MW",
+   "zips": [
+    "44113",
+    "44106"
+   ],
+   "cbsa": "17460",
+   "inc": 60
+  },
+  {
+   "name": "Dayton",
+   "metro": "Dayton",
+   "state": "OH",
+   "region": "MW",
+   "zips": [
+    "45402",
+    "45419"
+   ],
+   "cbsa": "19380",
+   "inc": 58
+  },
+  {
+   "name": "North Indy / Carmel",
+   "metro": "Indianapolis",
+   "state": "IN",
+   "region": "MW",
+   "zips": [
+    "46032",
+    "46240",
+    "46220"
+   ],
+   "cbsa": "26900",
+   "inc": 82
+  },
+  {
+   "name": "Royal Oak / Troy",
+   "metro": "Detroit",
+   "state": "MI",
+   "region": "MW",
+   "zips": [
+    "48067",
+    "48084"
+   ],
+   "cbsa": "19820",
+   "inc": 78
+  },
+  {
+   "name": "Downtown / Midtown Detroit",
+   "metro": "Detroit",
+   "state": "MI",
+   "region": "MW",
+   "zips": [
+    "48226",
+    "48201"
+   ],
+   "cbsa": "19820",
+   "inc": 62
+  },
+  {
+   "name": "Plaza / Overland Park",
+   "metro": "Kansas City",
+   "state": "MO",
+   "region": "MW",
+   "zips": [
+    "64112",
+    "66210",
+    "66213"
+   ],
+   "cbsa": "28140",
+   "inc": 82
+  },
+  {
+   "name": "Clayton / Central West End",
+   "metro": "St. Louis",
+   "state": "MO",
+   "region": "MW",
+   "zips": [
+    "63105",
+    "63108"
+   ],
+   "cbsa": "41180",
+   "inc": 76
+  },
+  {
+   "name": "East Side / Third Ward MKE",
+   "metro": "Milwaukee",
+   "state": "WI",
+   "region": "MW",
+   "zips": [
+    "53202",
+    "53211"
+   ],
+   "cbsa": "33340",
+   "inc": 72
+  },
+  {
+   "name": "Madison",
+   "metro": "Madison",
+   "state": "WI",
+   "region": "MW",
+   "zips": [
+    "53703",
+    "53711"
+   ],
+   "cbsa": "31540",
+   "inc": 80
+  },
+  {
+   "name": "Grand Rapids",
+   "metro": "Grand Rapids",
+   "state": "MI",
+   "region": "MW",
+   "zips": [
+    "49503",
+    "49506"
+   ],
+   "cbsa": "24340",
+   "inc": 70
+  },
+  {
+   "name": "Des Moines",
+   "metro": "Des Moines",
+   "state": "IA",
+   "region": "MW",
+   "zips": [
+    "50309",
+    "50266"
+   ],
+   "cbsa": "19780",
+   "inc": 74
+  },
+  {
+   "name": "Omaha",
+   "metro": "Omaha",
+   "state": "NE",
+   "region": "MW",
+   "zips": [
+    "68102",
+    "68114"
+   ],
+   "cbsa": "36540",
+   "inc": 72
+  },
+  {
+   "name": "Oklahoma City",
+   "metro": "Oklahoma City",
+   "state": "OK",
+   "region": "MW",
+   "zips": [
+    "73102",
+    "73120"
+   ],
+   "cbsa": "36420",
+   "inc": 66
+  },
+  {
+   "name": "Tulsa",
+   "metro": "Tulsa",
+   "state": "OK",
+   "region": "MW",
+   "zips": [
+    "74103",
+    "74137"
+   ],
+   "cbsa": "46140",
+   "inc": 62
+  },
+  {
+   "name": "Aurora / DIA Corridor",
+   "metro": "Denver",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80010",
+    "80011",
+    "80012",
+    "80013",
+    "80016"
+   ],
+   "cbsa": "19740",
+   "inc": 72
+  },
+  {
+   "name": "Lakewood / Wheat Ridge",
+   "metro": "Denver",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80214",
+    "80215",
+    "80226",
+    "80228",
+    "80033"
+   ],
+   "cbsa": "19740",
+   "inc": 78
+  },
+  {
+   "name": "Westminster / Thornton",
+   "metro": "Denver",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80031",
+    "80234",
+    "80229",
+    "80241",
+    "80260"
+   ],
+   "cbsa": "19740",
+   "inc": 85
+  },
+  {
+   "name": "DTC / Greenwood Village",
+   "metro": "Denver",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80111",
+    "80112",
+    "80237",
+    "80231"
+   ],
+   "cbsa": "19740",
+   "inc": 95
+  },
+  {
+   "name": "RiNo / Downtown Denver",
+   "metro": "Denver",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80205",
+    "80202",
+    "80216"
+   ],
+   "cbsa": "19740",
+   "inc": 88
+  },
+  {
+   "name": "Colorado Springs N",
+   "metro": "Colorado Springs",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80918",
+    "80920",
+    "80921",
+    "80923",
+    "80924"
+   ],
+   "cbsa": "17820",
+   "inc": 82
+  },
+  {
+   "name": "Colorado Springs SE",
+   "metro": "Colorado Springs",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80910",
+    "80916",
+    "80917",
+    "80915"
+   ],
+   "cbsa": "17820",
+   "inc": 62
+  },
+  {
+   "name": "Fort Collins / Loveland",
+   "metro": "N Colorado",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80525",
+    "80526",
+    "80528",
+    "80538",
+    "80537"
+   ],
+   "cbsa": "22660",
+   "inc": 78
+  },
+  {
+   "name": "Greeley / Windsor",
+   "metro": "N Colorado",
+   "state": "CO",
+   "region": "MTN",
+   "zips": [
+    "80634",
+    "80631",
+    "80550"
+   ],
+   "cbsa": "22660",
+   "inc": 68
+  },
+  {
+   "name": "Boise",
+   "metro": "Boise",
+   "state": "ID",
+   "region": "MTN",
+   "zips": [
+    "83702",
+    "83706",
+    "83646"
+   ],
+   "cbsa": "14260",
+   "inc": 78
+  },
+  {
+   "name": "Salt Lake / Midvale",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "region": "MTN",
+   "zips": [
+    "84047",
+    "84070",
+    "84107",
+    "84121"
+   ],
+   "cbsa": "41620",
+   "inc": 85
+  },
+  {
+   "name": "Lehi / Utah County",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "region": "MTN",
+   "zips": [
+    "84043",
+    "84003",
+    "84062",
+    "84604"
+   ],
+   "cbsa": "41620",
+   "inc": 105
+  },
+  {
+   "name": "Downtown SLC",
+   "metro": "Salt Lake City",
+   "state": "UT",
+   "region": "MTN",
+   "zips": [
+    "84101",
+    "84111",
+    "84115"
+   ],
+   "cbsa": "41620",
+   "inc": 72
+  },
+  {
+   "name": "Tempe / S Scottsdale",
+   "metro": "Phoenix",
+   "state": "AZ",
+   "region": "MTN",
+   "zips": [
+    "85281",
+    "85282",
+    "85283",
+    "85251",
+    "85257"
+   ],
+   "cbsa": "38060",
+   "inc": 78
+  },
+  {
+   "name": "Peoria / Arrowhead",
+   "metro": "Phoenix",
+   "state": "AZ",
+   "region": "MTN",
+   "zips": [
+    "85345",
+    "85381",
+    "85382",
+    "85383",
+    "85308"
+   ],
+   "cbsa": "38060",
+   "inc": 82
+  },
+  {
+   "name": "Mesa / Gilbert",
+   "metro": "Phoenix",
+   "state": "AZ",
+   "region": "MTN",
+   "zips": [
+    "85201",
+    "85204",
+    "85210",
+    "85233",
+    "85234"
+   ],
+   "cbsa": "38060",
+   "inc": 85
+  },
+  {
+   "name": "Downtown Phoenix",
+   "metro": "Phoenix",
+   "state": "AZ",
+   "region": "MTN",
+   "zips": [
+    "85003",
+    "85004",
+    "85006"
+   ],
+   "cbsa": "38060",
+   "inc": 65
+  },
+  {
+   "name": "Chandler",
+   "metro": "Phoenix",
+   "state": "AZ",
+   "region": "MTN",
+   "zips": [
+    "85224",
+    "85225",
+    "85226"
+   ],
+   "cbsa": "38060",
+   "inc": 98
+  },
+  {
+   "name": "Tucson",
+   "metro": "Tucson",
+   "state": "AZ",
+   "region": "MTN",
+   "zips": [
+    "85701",
+    "85719"
+   ],
+   "cbsa": "46060",
+   "inc": 58
+  },
+  {
+   "name": "Henderson",
+   "metro": "Las Vegas",
+   "state": "NV",
+   "region": "MTN",
+   "zips": [
+    "89052",
+    "89074",
+    "89012"
+   ],
+   "cbsa": "29820",
+   "inc": 82
+  },
+  {
+   "name": "Summerlin / NW Vegas",
+   "metro": "Las Vegas",
+   "state": "NV",
+   "region": "MTN",
+   "zips": [
+    "89135",
+    "89138",
+    "89144"
+   ],
+   "cbsa": "29820",
+   "inc": 88
+  },
+  {
+   "name": "Central Vegas / UNLV",
+   "metro": "Las Vegas",
+   "state": "NV",
+   "region": "MTN",
+   "zips": [
+    "89109",
+    "89119"
+   ],
+   "cbsa": "29820",
+   "inc": 55
+  },
+  {
+   "name": "Albuquerque",
+   "metro": "Albuquerque",
+   "state": "NM",
+   "region": "MTN",
+   "zips": [
+    "87102",
+    "87110"
+   ],
+   "cbsa": "10740",
+   "inc": 62
+  },
+  {
+   "name": "Reno",
+   "metro": "Reno",
+   "state": "NV",
+   "region": "MTN",
+   "zips": [
+    "89501",
+    "89509",
+    "89523"
+   ],
+   "cbsa": "39900",
+   "inc": 78
+  },
+  {
+   "name": "Capitol Hill / Downtown SEA",
+   "metro": "Seattle",
+   "state": "WA",
+   "region": "WC",
+   "zips": [
+    "98102",
+    "98122",
+    "98101"
+   ],
+   "cbsa": "42660",
+   "inc": 110
+  },
+  {
+   "name": "Bellevue / Redmond",
+   "metro": "Seattle",
+   "state": "WA",
+   "region": "WC",
+   "zips": [
+    "98004",
+    "98005",
+    "98052"
+   ],
+   "cbsa": "42660",
+   "inc": 145
+  },
+  {
+   "name": "Ballard / Fremont",
+   "metro": "Seattle",
+   "state": "WA",
+   "region": "WC",
+   "zips": [
+    "98107",
+    "98103"
+   ],
+   "cbsa": "42660",
+   "inc": 105
+  },
+  {
+   "name": "Tacoma",
+   "metro": "Seattle",
+   "state": "WA",
+   "region": "WC",
+   "zips": [
+    "98402",
+    "98405"
+   ],
+   "cbsa": "42660",
+   "inc": 80
+  },
+  {
+   "name": "Spokane",
+   "metro": "Spokane",
+   "state": "WA",
+   "region": "WC",
+   "zips": [
+    "99201",
+    "99203"
+   ],
+   "cbsa": "44060",
+   "inc": 66
+  },
+  {
+   "name": "Inner East / Pearl PDX",
+   "metro": "Portland",
+   "state": "OR",
+   "region": "WC",
+   "zips": [
+    "97209",
+    "97214",
+    "97232"
+   ],
+   "cbsa": "38900",
+   "inc": 82
+  },
+  {
+   "name": "Beaverton / Hillsboro",
+   "metro": "Portland",
+   "state": "OR",
+   "region": "WC",
+   "zips": [
+    "97005",
+    "97006",
+    "97124"
+   ],
+   "cbsa": "38900",
+   "inc": 95
+  },
+  {
+   "name": "San Francisco",
+   "metro": "San Francisco",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "94110",
+    "94109",
+    "94115"
+   ],
+   "cbsa": "41860",
+   "inc": 130
+  },
+  {
+   "name": "Oakland / East Bay",
+   "metro": "San Francisco",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "94607",
+    "94612",
+    "94610"
+   ],
+   "cbsa": "41860",
+   "inc": 100
+  },
+  {
+   "name": "San Jose / Silicon Valley",
+   "metro": "San Jose",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "95110",
+    "95112",
+    "95126"
+   ],
+   "cbsa": "41940",
+   "inc": 155
+  },
+  {
+   "name": "Koreatown / Mid-City",
+   "metro": "Los Angeles",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "90005",
+    "90006",
+    "90020"
+   ],
+   "cbsa": "31080",
+   "inc": 70
+  },
+  {
+   "name": "Santa Monica / West LA",
+   "metro": "Los Angeles",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "90404",
+    "90025",
+    "90064"
+   ],
+   "cbsa": "31080",
+   "inc": 110
+  },
+  {
+   "name": "DTLA",
+   "metro": "Los Angeles",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "90014",
+    "90015",
+    "90017"
+   ],
+   "cbsa": "31080",
+   "inc": 85
+  },
+  {
+   "name": "Pasadena / Glendale",
+   "metro": "Los Angeles",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "91101",
+    "91205",
+    "91206"
+   ],
+   "cbsa": "31080",
+   "inc": 92
+  },
+  {
+   "name": "Irvine / South OC",
+   "metro": "Orange County",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "92612",
+    "92614",
+    "92618"
+   ],
+   "cbsa": "31080",
+   "inc": 122
+  },
+  {
+   "name": "Anaheim / North OC",
+   "metro": "Orange County",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "92801",
+    "92805"
+   ],
+   "cbsa": "31080",
+   "inc": 88
+  },
+  {
+   "name": "Riverside",
+   "metro": "Inland Empire",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "92501",
+    "92507"
+   ],
+   "cbsa": "40140",
+   "inc": 78
+  },
+  {
+   "name": "Ontario / Rancho",
+   "metro": "Inland Empire",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "91764",
+    "91730",
+    "91739"
+   ],
+   "cbsa": "40140",
+   "inc": 85
+  },
+  {
+   "name": "North County / Carlsbad",
+   "metro": "San Diego",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "92008",
+    "92009",
+    "92011"
+   ],
+   "cbsa": "41740",
+   "inc": 110
+  },
+  {
+   "name": "Mission Valley / Central SD",
+   "metro": "San Diego",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "92108",
+    "92110",
+    "92111"
+   ],
+   "cbsa": "41740",
+   "inc": 95
+  },
+  {
+   "name": "Midtown / East Sac",
+   "metro": "Sacramento",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "95816",
+    "95814",
+    "95819"
+   ],
+   "cbsa": "40900",
+   "inc": 82
+  },
+  {
+   "name": "Roseville / Folsom",
+   "metro": "Sacramento",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "95661",
+    "95678",
+    "95630"
+   ],
+   "cbsa": "40900",
+   "inc": 100
+  },
+  {
+   "name": "Fresno",
+   "metro": "Fresno",
+   "state": "CA",
+   "region": "WC",
+   "zips": [
+    "93704",
+    "93720"
+   ],
+   "cbsa": "23420",
+   "inc": 62
+  }
+ ],
+ "metro_stock_5plus": {
+  "New York": 2400000,
+  "Boston": 420000,
+  "Philadelphia": 380000,
+  "Hartford": 90000,
+  "Buffalo": 75000,
+  "Providence": 85000,
+  "Pittsburgh": 140000,
+  "Washington DC": 620000,
+  "Baltimore": 230000,
+  "Atlanta": 560000,
+  "Charlotte": 230000,
+  "Raleigh": 170000,
+  "Nashville": 190000,
+  "Tampa": 270000,
+  "Orlando": 250000,
+  "Miami": 520000,
+  "Jacksonville": 130000,
+  "Charleston": 70000,
+  "Greenville": 60000,
+  "Savannah": 35000,
+  "Huntsville": 45000,
+  "Birmingham": 75000,
+  "Memphis": 110000,
+  "Knoxville": 55000,
+  "Chattanooga": 40000,
+  "Richmond": 95000,
+  "Norfolk": 120000,
+  "New Orleans": 95000,
+  "Louisville": 85000,
+  "DFW": 900000,
+  "Austin": 330000,
+  "San Antonio": 250000,
+  "Houston": 750000,
+  "El Paso": 55000,
+  "Chicago": 780000,
+  "Minneapolis": 290000,
+  "Columbus": 220000,
+  "Cincinnati": 160000,
+  "Cleveland": 160000,
+  "Dayton": 65000,
+  "Indianapolis": 180000,
+  "Detroit": 280000,
+  "Kansas City": 180000,
+  "St. Louis": 170000,
+  "Milwaukee": 130000,
+  "Madison": 75000,
+  "Grand Rapids": 60000,
+  "Des Moines": 60000,
+  "Omaha": 80000,
+  "Oklahoma City": 110000,
+  "Tulsa": 75000,
+  "Denver": 330000,
+  "Colorado Springs": 65000,
+  "N Colorado": 55000,
+  "Boise": 45000,
+  "Salt Lake City": 150000,
+  "Phoenix": 420000,
+  "Tucson": 80000,
+  "Las Vegas": 230000,
+  "Albuquerque": 60000,
+  "Reno": 45000,
+  "Seattle": 420000,
+  "Spokane": 45000,
+  "Portland": 220000,
+  "San Francisco": 420000,
+  "San Jose": 180000,
+  "Los Angeles": 1250000,
+  "Orange County": 280000,
+  "Inland Empire": 180000,
+  "San Diego": 300000,
+  "Sacramento": 150000,
+  "Fresno": 55000
+ }
+}
