@@ -104,7 +104,7 @@ def census_permits():
         for off in range(3):   # Bldgs / Units / Value — Units sums to ~20-70k nationally per month
             col_sum = 0
             for v in data_all.iloc[:, g5+off]:
-                try: col_sum += float(v)
+                try: col_sum += float(str(v).replace(",",""))
                 except (ValueError, TypeError): pass
             if 5000 <= col_sum <= 200000:
                 units_col = g5 + off; break
@@ -122,7 +122,7 @@ def census_permits():
         for _, row in data.iterrows():
             code = str(row.iloc[best_col]).replace(".0", "").zfill(5)
             if code not in known: continue
-            try: units = int(float(row.iloc[units_col]))
+            try: units = int(float(str(row.iloc[units_col]).replace(",","")))
             except (ValueError, TypeError): continue
             per_cbsa[code] = per_cbsa.get(code, 0) + units
         got += 1
@@ -169,6 +169,7 @@ def main():
     for s in SUBS:
         zlist = [z.zfill(5) for z in s["zips"]]
         rser = [rents[z] for z in zlist if z in rents]
+        rser = [sr for sr in rser if len(sr) >= 13 and abs(100*(sr[-1]/sr[-13]-1)) <= 15]   # junk-ZIP cap
         if len(rser) >= 2:
             zy = [(sr, 100*(sr[-1]/sr[-13]-1)) for sr in rser if len(sr) >= 13]
             if zy:
