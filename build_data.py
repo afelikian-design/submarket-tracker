@@ -52,7 +52,10 @@ def zip_series(csv_text, wanted):
 
 def avg_at(series_list, back):
     vals = [s[len(s)-1-back] for s in series_list if len(s) > back]
-    return sum(vals)/len(vals) if vals else None
+    if not vals: return None
+    vals.sort()
+    n = len(vals)
+    return vals[n//2] if n % 2 else (vals[n//2-1]+vals[n//2])/2.0   # median — robust to sparse-ZIP outliers
 
 def monthly_pi(value):
     """Monthly P&I on 80% LTV, 30yr, plus taxes+insurance."""
@@ -63,39 +66,61 @@ def monthly_pi(value):
     return pi + value*TAX_INS_PCT/12.0
 
 def census_permits():
-    """Trailing-12-month 5+ unit permits per CBSA from Census BPS metro monthly files."""
+    """Trailing-12-month 5+ unit permits per CBSA from Census cbsamonthly_YYYYMM.xls files (post-2024 format)."""
+    import pandas as pd
     today = date.today()
     months = []
     y, m = today.year, today.month
-    for _ in range(16):                      # look back up to 16 months, keep first 12 found
+    for _ in range(16):
         m -= 1
         if m == 0: y -= 1; m = 12
         months.append((y, m))
     per_cbsa = {}
     got = 0
+    known = {s.get("cbsa") for s in SUBS if s.get("cbsa")}
     for (y, m) in months:
         if got >= 12: break
-        url = f"https://www2.census.gov/econ/bps/Metro/ma{str(y)[2:]}{m:02d}c.txt"
+        url = f"https://www.census.gov/construction/bps/xls/cbsamonthly_{y}{m:02d}.xls"
         try:
-            txt = fetch(url, timeout=60)
-        except Exception:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=60) as r:
+                raw = r.read()
+            df = pd.read_excel(io.BytesIO(raw), header=None)
+        except Exception as e:
+            print(f"  permits {y}-{m:02d}: skip ({type(e).__name__})")
             continue
-        rdr = csv.reader(io.StringIO(txt))
-        rows = list(rdr)
-        if len(rows) < 3: continue
-        h1 = rows[0]
-        # locate CBSA column and the "5 Units or More" -> Units column
-        try:
-            cbsa_i = next(i for i,c in enumerate(h1) if "CBSA" in c)
-            five_i = next(i for i,c in enumerate(h1) if "5 Unit" in c) + 1   # Bldgs, Units, Value
-        except StopIteration:
-            continue
-        for row in rows[2:]:
-            if len(row) <= max(cbsa_i, five_i): continue
-            cbsa = row[cbsa_i].strip()
-            try: units = int(row[five_i])
-            except ValueError: continue
-            per_cbsa[cbsa] = per_cbsa.get(cbsa, 0) + units
+        # find header row containing "5 Units" and the Units column inside that group
+        hdr_row = units_col = None
+        for i in range(min(10, len(df))):
+            for j, cell in enumerate(df.iloc[i]):
+                if isinstance(cell, str) and "5 Unit" in cell:
+                    hdr_row, g5 = i, j
+                    # next header row labels Bldgs/Units/Value under the group
+                    sub = df.iloc[i+1] if i+1 < len(df) else None
+                    units_col = g5 + 1
+                    if sub is not None:
+                        for k in range(g5, min(g5+3, len(sub))):
+                            if isinstance(sub[k], str) and "Unit" in sub[k]:
+                                units_col = k; break
+                    break
+            if hdr_row is not None: break
+        if hdr_row is None:
+            print(f"  permits {y}-{m:02d}: no 5+ header found"); continue
+        # CBSA code column: the column whose values best match our known CBSA codes
+        best_col, best_hits = None, 0
+        data = df.iloc[hdr_row+2:]
+        for j in range(min(6, df.shape[1])):
+            col = data.iloc[:, j].astype(str).str.replace(r"\.0$", "", regex=True).str.zfill(5)
+            hits = col.isin(known).sum()
+            if hits > best_hits: best_col, best_hits = j, hits
+        if best_col is None or best_hits < 10:
+            print(f"  permits {y}-{m:02d}: CBSA column not found"); continue
+        for _, row in data.iterrows():
+            code = str(row.iloc[best_col]).replace(".0", "").zfill(5)
+            if code not in known: continue
+            try: units = int(float(row.iloc[units_col]))
+            except (ValueError, TypeError): continue
+            per_cbsa[code] = per_cbsa.get(code, 0) + units
         got += 1
     return per_cbsa, got
 
