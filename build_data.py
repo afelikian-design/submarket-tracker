@@ -89,26 +89,30 @@ def census_permits():
         except Exception as e:
             print(f"  permits {y}-{m:02d}: skip ({type(e).__name__})")
             continue
-        # find header row containing "5 Units" and the Units column inside that group
-        hdr_row = units_col = None
+        # find the "5 Units" group, then pick the Units column by magnitude sanity-check
+        hdr_row = g5 = None
         for i in range(min(10, len(df))):
             for j, cell in enumerate(df.iloc[i]):
                 if isinstance(cell, str) and "5 Unit" in cell:
                     hdr_row, g5 = i, j
-                    # next header row labels Bldgs/Units/Value under the group
-                    sub = df.iloc[i+1] if i+1 < len(df) else None
-                    units_col = g5 + 1
-                    if sub is not None:
-                        for k in range(g5, min(g5+3, len(sub))):
-                            if isinstance(sub[k], str) and "Unit" in sub[k]:
-                                units_col = k; break
                     break
             if hdr_row is not None: break
         if hdr_row is None:
             print(f"  permits {y}-{m:02d}: no 5+ header found"); continue
+        data_all = df.iloc[hdr_row+2:]
+        units_col = None
+        for off in range(3):   # Bldgs / Units / Value — Units sums to ~20-70k nationally per month
+            col_sum = 0
+            for v in data_all.iloc[:, g5+off]:
+                try: col_sum += float(v)
+                except (ValueError, TypeError): pass
+            if 5000 <= col_sum <= 200000:
+                units_col = g5 + off; break
+        if units_col is None:
+            print(f"  permits {y}-{m:02d}: units column failed sanity check"); continue
         # CBSA code column: the column whose values best match our known CBSA codes
         best_col, best_hits = None, 0
-        data = df.iloc[hdr_row+2:]
+        data = data_all
         for j in range(min(6, df.shape[1])):
             col = data.iloc[:, j].astype(str).str.replace(r"\.0$", "", regex=True).str.zfill(5)
             hits = col.isin(known).sum()
@@ -165,6 +169,13 @@ def main():
     for s in SUBS:
         zlist = [z.zfill(5) for z in s["zips"]]
         rser = [rents[z] for z in zlist if z in rents]
+        if len(rser) >= 2:
+            zy = [(sr, 100*(sr[-1]/sr[-13]-1)) for sr in rser if len(sr) >= 13]
+            if zy:
+                ys = sorted(v for _, v in zy)
+                med = ys[len(ys)//2]
+                kept = [sr for sr, v in zy if abs(v - med) <= 10]
+                if kept: rser = kept   # drop thin/junk ZIPs diverging >10pp from the submarket median
         row = {"name": s["name"]}
         if rser:
             cur, yr, m3 = avg_at(rser,0), avg_at(rser,12), avg_at(rser,3)
@@ -199,4 +210,4 @@ def main():
         sys.exit("FAILED: fewer than half of submarkets resolved — check source URLs")
 
 if __name__ == "__main__":
-    main()
+    main() 
