@@ -1031,18 +1031,14 @@
   },
   {
    "name": "San Francisco",
-   "rent": 4590,
-   "yoy": 27.4,
-   "mom3": 65.0,
-   "own": 96,
    "pipe": 1.2
   },
   {
    "name": "Oakland / East Bay",
-   "rent": 2742,
-   "yoy": 12.4,
-   "mom3": 26.6,
-   "own": 21,
+   "rent": 2543,
+   "yoy": 8.7,
+   "mom3": 19.1,
+   "own": 30,
    "pipe": 1.2
   },
   {
