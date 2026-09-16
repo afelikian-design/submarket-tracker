@@ -22,7 +22,7 @@ MORTGAGE_RATE = float(os.environ.get("MORTGAGE_RATE", "6.3")) / 100.0
 TAX_INS_PCT   = float(os.environ.get("TAX_INS_PCT", "1.6")) / 100.0   # annual, % of value
 UA = {"User-Agent": "Mozilla/5.0 (BSP-deal-tracker data pipeline)"}
 
-ZORI = "https://files.zillowstatic.com/research/public_csvs/zori/Zip_zori_uc_sfrcondomf_sm_month.csv"
+ZORI = "https://files.zillowstatic.com/research/public_csvs/zori/Zip_zori_uc_sfrcondomfr_sm_month.csv"
 ZHVI = "https://files.zillowstatic.com/research/public_csvs/zhvi/Zip_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv"
 
 def fetch(url, timeout=180):
