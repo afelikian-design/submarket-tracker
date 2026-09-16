@@ -3,590 +3,673 @@
  "sources": {
   "zori_zips": 413,
   "zhvi_zips": 414,
-  "permit_months": 0,
+  "permit_months": 12,
   "mortgage_rate": 6.3
  },
  "rows": [
   {
    "name": "Manhattan",
-   "rent": 4639,
-   "yoy": 5.4,
-   "mom3": 11.1,
-   "own": 70
+   "rent": 4748,
+   "yoy": 5.0,
+   "mom3": 10.0,
+   "own": 61,
+   "pipe": 0.1
   },
   {
    "name": "Brooklyn \u2013 W'burg/Downtown",
-   "rent": 5116,
-   "yoy": 3.5,
-   "mom3": 3.5,
-   "own": 77
+   "rent": 5020,
+   "yoy": 4.9,
+   "mom3": 5.5,
+   "own": 78,
+   "pipe": 0.1
   },
   {
    "name": "Queens \u2013 LIC/Astoria",
-   "rent": 3677,
-   "yoy": 3.2,
-   "mom3": 11.1,
-   "own": 45
+   "rent": 3424,
+   "yoy": 4.1,
+   "mom3": 15.6,
+   "own": 33,
+   "pipe": 0.1
   },
   {
    "name": "Jersey City / Hoboken",
-   "rent": 4186,
-   "yoy": 3.2,
-   "mom3": 6.2,
-   "own": 37
+   "rent": 3988,
+   "yoy": 4.1,
+   "mom3": 3.8,
+   "own": 41,
+   "pipe": 0.1
   },
   {
    "name": "Newark / North Jersey",
    "rent": 2195,
    "yoy": 1.7,
    "mom3": 1.3,
-   "own": 29
+   "own": 29,
+   "pipe": 0.1
   },
   {
    "name": "Cambridge / Somerville",
-   "rent": 3490,
-   "yoy": 3.6,
-   "mom3": -12.2,
-   "own": 78
+   "rent": 3517,
+   "yoy": 3.8,
+   "mom3": -9.4,
+   "own": 79,
+   "pipe": 0.1
   },
   {
    "name": "Seaport / Downtown Boston",
    "rent": 4136,
    "yoy": 4.5,
    "mom3": 14.0,
-   "own": 97
+   "own": 117,
+   "pipe": 0.1
   },
   {
    "name": "Quincy / South Shore",
    "rent": 2876,
    "yoy": 1.5,
    "mom3": -3.4,
-   "own": 50
+   "own": 50,
+   "pipe": 0.1
   },
   {
    "name": "Center City Philly",
-   "rent": 2134,
-   "yoy": 4.2,
-   "mom3": 7.9,
-   "own": 15
+   "rent": 2138,
+   "yoy": 4.5,
+   "mom3": 13.7,
+   "own": 12,
+   "pipe": 0.1
   },
   {
    "name": "University City / Fishtown",
    "rent": 1751,
    "yoy": 3.1,
    "mom3": 3.2,
-   "own": 8
+   "own": 8,
+   "pipe": 0.1
   },
   {
    "name": "King of Prussia / Main Line",
    "rent": 2245,
    "yoy": 3.0,
    "mom3": 5.6,
-   "own": 86
+   "own": 86,
+   "pipe": 0.1
   },
   {
    "name": "Hartford",
    "rent": 1619,
    "yoy": 5.6,
    "mom3": 11.4,
-   "own": -10
+   "own": -10,
+   "pipe": 0.1
   },
   {
    "name": "Buffalo",
    "rent": 1411,
    "yoy": 4.0,
    "mom3": 16.5,
-   "own": 91
+   "own": 91,
+   "pipe": 0.1
   },
   {
    "name": "Providence",
    "rent": 2452,
    "yoy": 4.9,
    "mom3": 6.5,
-   "own": 62
+   "own": 62,
+   "pipe": 0.1
   },
   {
    "name": "Pittsburgh \u2013 East End",
    "rent": 1668,
    "yoy": 4.4,
    "mom3": 7.6,
-   "own": 42
+   "own": 42,
+   "pipe": 0.0
   },
   {
    "name": "Arlington / Alexandria",
-   "rent": 2565,
-   "yoy": 0.1,
-   "mom3": -1.8,
-   "own": 63
+   "rent": 2595,
+   "yoy": 0.3,
+   "mom3": -6.3,
+   "own": 69,
+   "pipe": 0.0
   },
   {
    "name": "District / Navy Yard",
-   "rent": 2468,
-   "yoy": -0.4,
-   "mom3": 8.0,
-   "own": 54
+   "rent": 2465,
+   "yoy": 0.8,
+   "mom3": 13.9,
+   "own": 55,
+   "pipe": 0.0
   },
   {
    "name": "Silver Spring / Bethesda",
    "rent": 2430,
    "yoy": -0.2,
    "mom3": 5.8,
-   "own": 79
+   "own": 79,
+   "pipe": 0.0
   },
   {
    "name": "Inner Harbor / Canton",
    "rent": 2201,
    "yoy": 3.8,
    "mom3": 6.6,
-   "own": -28
+   "own": -28,
+   "pipe": 0.0
   },
   {
    "name": "Midtown / Buckhead",
-   "rent": 2171,
-   "yoy": 2.8,
-   "mom3": 6.6,
-   "own": 44
+   "rent": 2184,
+   "yoy": 2.7,
+   "mom3": 5.7,
+   "own": 17,
+   "pipe": 0.1
   },
   {
    "name": "Sandy Springs / Perimeter",
-   "rent": 1722,
-   "yoy": 2.6,
-   "mom3": 7.0,
-   "own": 127
+   "rent": 1784,
+   "yoy": 4.7,
+   "mom3": 9.9,
+   "own": 120,
+   "pipe": 0.1
   },
   {
    "name": "Gwinnett / Duluth",
-   "rent": 1826,
-   "yoy": 0.1,
-   "mom3": 2.3,
-   "own": 74
+   "rent": 1911,
+   "yoy": 0.4,
+   "mom3": 1.6,
+   "own": 34,
+   "pipe": 0.1
   },
   {
    "name": "South Atlanta / Airport",
    "rent": 1811,
    "yoy": 3.6,
    "mom3": 3.7,
-   "own": -14
+   "own": -14,
+   "pipe": 0.1
   },
   {
    "name": "South End / Uptown CLT",
-   "rent": 1879,
-   "yoy": 0.4,
-   "mom3": 6.3,
-   "own": 85
+   "rent": 1908,
+   "yoy": 0.2,
+   "mom3": 8.5,
+   "own": 90,
+   "pipe": 0.1
   },
   {
    "name": "University / Northlake",
    "rent": 1678,
    "yoy": 0.3,
    "mom3": -1.7,
-   "own": 30
+   "own": 30,
+   "pipe": 0.1
   },
   {
    "name": "Downtown Raleigh / N Hills",
-   "rent": 1585,
-   "yoy": 0.8,
-   "mom3": 8.0,
-   "own": 83
+   "rent": 1594,
+   "yoy": 3.2,
+   "mom3": 12.9,
+   "own": 96,
+   "pipe": 0.1
   },
   {
    "name": "Durham / RTP",
    "rent": 1636,
    "yoy": 2.4,
    "mom3": 3.6,
-   "own": 61
+   "own": 61,
+   "pipe": 0.1
   },
   {
    "name": "The Gulch / Midtown Nash",
    "rent": 2144,
    "yoy": -0.4,
    "mom3": 6.4,
-   "own": 100
+   "own": 100,
+   "pipe": 0.0
   },
   {
    "name": "Murfreesboro / SE Nash",
-   "rent": 1673,
-   "yoy": 1.5,
-   "mom3": 2.0,
-   "own": 58
+   "rent": 1702,
+   "yoy": 0.4,
+   "mom3": -3.0,
+   "own": 63,
+   "pipe": 0.0
   },
   {
    "name": "Downtown Tampa / Westshore",
-   "rent": 2469,
-   "yoy": 0.3,
-   "mom3": 4.6,
-   "own": 26
+   "rent": 2482,
+   "yoy": 0.8,
+   "mom3": 6.1,
+   "own": 31,
+   "pipe": 0.1
   },
   {
    "name": "Wesley Chapel / New Tampa",
-   "rent": 2071,
-   "yoy": -0.9,
-   "mom3": -0.7,
-   "own": 31
+   "rent": 2073,
+   "yoy": -1.9,
+   "mom3": -7.2,
+   "own": 28,
+   "pipe": 0.1
   },
   {
    "name": "St. Pete / Clearwater",
-   "rent": 2080,
-   "yoy": 1.3,
-   "mom3": 10.4,
-   "own": 34
+   "rent": 2227,
+   "yoy": 0.8,
+   "mom3": 16.3,
+   "own": -7,
+   "pipe": 0.1
   },
   {
    "name": "Lake Nona / SE Orlando",
    "rent": 2312,
    "yoy": -0.6,
    "mom3": 5.4,
-   "own": 58
+   "own": 58,
+   "pipe": 0.1
   },
   {
    "name": "Winter Park / Maitland",
    "rent": 2173,
    "yoy": 5.1,
    "mom3": 20.2,
-   "own": 84
+   "own": 84,
+   "pipe": 0.1
   },
   {
    "name": "Brickell / Downtown Miami",
-   "rent": 3551,
-   "yoy": 0.9,
-   "mom3": 4.3,
-   "own": -5
+   "rent": 3511,
+   "yoy": 1.6,
+   "mom3": 5.6,
+   "own": -8,
+   "pipe": 0.1
   },
   {
    "name": "Fort Lauderdale",
    "rent": 2851,
    "yoy": 2.7,
    "mom3": -4.5,
-   "own": 61
+   "own": 61,
+   "pipe": 0.1
   },
   {
    "name": "West Palm Beach",
    "rent": 2524,
    "yoy": 5.1,
    "mom3": 5.8,
-   "own": 0
+   "own": 0,
+   "pipe": 0.1
   },
   {
    "name": "St. Johns / South Jax",
-   "rent": 1809,
-   "yoy": 1.4,
-   "mom3": 9.4,
-   "own": 41
+   "rent": 1823,
+   "yoy": 1.9,
+   "mom3": 15.3,
+   "own": 27,
+   "pipe": 0.0
   },
   {
    "name": "Jacksonville Urban Core",
    "rent": 1570,
    "yoy": 1.5,
    "mom3": -4.9,
-   "own": -5
+   "own": -5,
+   "pipe": 0.0
   },
   {
    "name": "Charleston",
-   "rent": 2287,
-   "yoy": 5.6,
-   "mom3": 14.0,
-   "own": 109
+   "rent": 2251,
+   "yoy": 5.0,
+   "mom3": 13.9,
+   "own": 140,
+   "pipe": 0.1
   },
   {
    "name": "Greenville",
    "rent": 1687,
    "yoy": 2.3,
    "mom3": 6.8,
-   "own": 78
+   "own": 78,
+   "pipe": 0.1
   },
   {
    "name": "Savannah",
    "rent": 1812,
    "yoy": -0.1,
    "mom3": 3.9,
-   "own": 50
+   "own": 50,
+   "pipe": 0.3
   },
   {
    "name": "Huntsville",
    "rent": 1384,
    "yoy": 2.3,
    "mom3": 9.1,
-   "own": 74
+   "own": 74,
+   "pipe": 0.1
   },
   {
    "name": "Birmingham",
    "rent": 1244,
    "yoy": 2.6,
    "mom3": 1.7,
-   "own": 94
+   "own": 94,
+   "pipe": 0.1
   },
   {
    "name": "Memphis",
    "rent": 1384,
    "yoy": 2.4,
    "mom3": 7.1,
-   "own": 19
+   "own": 19,
+   "pipe": 0.0
   },
   {
    "name": "Knoxville",
    "rent": 1847,
    "yoy": 0.8,
    "mom3": 14.3,
-   "own": 102
+   "own": 102,
+   "pipe": 0.1
   },
   {
    "name": "Chattanooga",
    "rent": 1506,
    "yoy": 1.1,
    "mom3": 7.2,
-   "own": 68
+   "own": 68,
+   "pipe": 0.1
   },
   {
    "name": "Richmond",
    "rent": 1828,
    "yoy": 2.6,
    "mom3": 6.0,
-   "own": 50
+   "own": 50,
+   "pipe": 0.1
   },
   {
    "name": "Norfolk / Virginia Beach",
-   "rent": 1988,
-   "yoy": 6.5,
-   "mom3": 8.1,
-   "own": 39
+   "rent": 2013,
+   "yoy": 8.6,
+   "mom3": 11.1,
+   "own": 3,
+   "pipe": 0.0
   },
   {
    "name": "New Orleans",
    "rent": 1739,
    "yoy": 1.0,
    "mom3": 5.2,
-   "own": 74
+   "own": 74,
+   "pipe": 0.0
   },
   {
    "name": "Louisville",
    "rent": 1364,
    "yoy": 3.5,
    "mom3": 7.6,
-   "own": 56
+   "own": 56,
+   "pipe": 0.1
   },
   {
    "name": "McKinney / Allen",
-   "rent": 1806,
-   "yoy": -0.6,
-   "mom3": -1.2,
-   "own": 70
+   "rent": 1664,
+   "yoy": -3.0,
+   "mom3": -4.9,
+   "own": 77,
+   "pipe": 0.1
   },
   {
    "name": "Frisco / Prosper",
-   "rent": 2056,
-   "yoy": -1.1,
-   "mom3": 1.2,
-   "own": 97
+   "rent": 2011,
+   "yoy": -2.2,
+   "mom3": 12.6,
+   "own": 103,
+   "pipe": 0.1
   },
   {
    "name": "Denton / Little Elm",
-   "rent": 1621,
-   "yoy": -1.9,
-   "mom3": 0.9,
-   "own": 33
+   "rent": 1486,
+   "yoy": -2.0,
+   "mom3": -5.4,
+   "own": 51,
+   "pipe": 0.1
   },
   {
    "name": "Plano / Richardson",
-   "rent": 1733,
-   "yoy": 0.6,
-   "mom3": 1.1,
-   "own": 49
+   "rent": 1638,
+   "yoy": -0.6,
+   "mom3": -2.1,
+   "own": 58,
+   "pipe": 0.1
   },
   {
    "name": "Las Colinas / Irving",
-   "rent": 1563,
-   "yoy": 0.7,
-   "mom3": 2.0,
-   "own": 100
+   "rent": 1503,
+   "yoy": 1.5,
+   "mom3": 0.3,
+   "own": 121,
+   "pipe": 0.1
   },
   {
    "name": "Uptown / Oak Lawn",
-   "rent": 1998,
-   "yoy": 1.7,
-   "mom3": 1.0,
-   "own": 70
+   "rent": 2087,
+   "yoy": 2.3,
+   "mom3": 2.9,
+   "own": 37,
+   "pipe": 0.1
   },
   {
    "name": "Fort Worth / Alliance",
-   "rent": 1877,
-   "yoy": 1.8,
-   "mom3": 0.2,
-   "own": 33
+   "rent": 1956,
+   "yoy": 1.3,
+   "mom3": -1.3,
+   "own": 19,
+   "pipe": 0.1
   },
   {
    "name": "SW Fort Worth / Chisholm",
-   "rent": 1615,
-   "yoy": -0.0,
-   "mom3": 2.3,
-   "own": 30
+   "rent": 1710,
+   "yoy": -0.3,
+   "mom3": -1.8,
+   "own": 16,
+   "pipe": 0.1
   },
   {
    "name": "Mansfield / Midlothian",
-   "rent": 1880,
-   "yoy": 0.9,
-   "mom3": 0.5,
-   "own": 43
+   "rent": 1933,
+   "yoy": 0.4,
+   "mom3": 3.9,
+   "own": 43,
+   "pipe": 0.1
   },
   {
    "name": "Grand Prairie / Arlington",
-   "rent": 1571,
-   "yoy": 0.9,
-   "mom3": 0.1,
-   "own": 10
+   "rent": 1470,
+   "yoy": 0.8,
+   "mom3": -7.5,
+   "own": 18,
+   "pipe": 0.1
   },
   {
    "name": "North Austin / Domain",
-   "rent": 1434,
-   "yoy": -2.0,
-   "mom3": 4.7,
-   "own": 97
+   "rent": 1462,
+   "yoy": -1.7,
+   "mom3": 6.7,
+   "own": 74,
+   "pipe": 0.0
   },
   {
    "name": "East Austin / Riverside",
-   "rent": 1638,
-   "yoy": 0.4,
-   "mom3": 4.3,
-   "own": 52
+   "rent": 1420,
+   "yoy": 1.9,
+   "mom3": 5.1,
+   "own": 43,
+   "pipe": 0.0
   },
   {
    "name": "Round Rock / Pflugerville",
-   "rent": 1705,
-   "yoy": 0.9,
-   "mom3": 5.4,
-   "own": 44
+   "rent": 1703,
+   "yoy": 2.1,
+   "mom3": 9.2,
+   "own": 40,
+   "pipe": 0.0
   },
   {
    "name": "San Marcos / Kyle",
    "rent": 1490,
    "yoy": -1.7,
    "mom3": -0.2,
-   "own": 28
+   "own": 28,
+   "pipe": 0.0
   },
   {
    "name": "NW San Antonio / Medical",
-   "rent": 1304,
-   "yoy": -2.0,
-   "mom3": 7.0,
-   "own": 20
+   "rent": 1315,
+   "yoy": -2.1,
+   "mom3": 11.6,
+   "own": 21,
+   "pipe": 0.1
   },
   {
    "name": "Stone Oak / Far N Central",
-   "rent": 1612,
-   "yoy": 0.7,
-   "mom3": 0.9,
-   "own": 81
+   "rent": 1540,
+   "yoy": 0.1,
+   "mom3": 0.2,
+   "own": 92,
+   "pipe": 0.1
   },
   {
    "name": "New Braunfels / Schertz",
-   "rent": 1653,
-   "yoy": -0.8,
-   "mom3": 0.8,
-   "own": 42
+   "rent": 1642,
+   "yoy": -0.3,
+   "mom3": 1.4,
+   "own": 21,
+   "pipe": 0.1
   },
   {
    "name": "Katy / Cypress",
-   "rent": 1868,
-   "yoy": -0.7,
-   "mom3": 3.8,
-   "own": 30
+   "rent": 1860,
+   "yoy": -1.5,
+   "mom3": 6.4,
+   "own": 36,
+   "pipe": 0.0
   },
   {
    "name": "The Woodlands / Spring",
-   "rent": 1966,
-   "yoy": 0.8,
-   "mom3": 3.5,
-   "own": 19
+   "rent": 1807,
+   "yoy": 1.0,
+   "mom3": -2.1,
+   "own": 28,
+   "pipe": 0.0
   },
   {
    "name": "Inner Loop / Montrose",
-   "rent": 1878,
-   "yoy": 0.4,
-   "mom3": 7.3,
-   "own": 117
+   "rent": 1842,
+   "yoy": 1.0,
+   "mom3": 6.2,
+   "own": 135,
+   "pipe": 0.0
   },
   {
    "name": "Energy Corridor",
    "rent": 1425,
    "yoy": -2.7,
    "mom3": -2.3,
-   "own": 150
+   "own": 150,
+   "pipe": 0.0
   },
   {
    "name": "Pearland / Friendswood",
    "rent": 2007,
    "yoy": 2.2,
    "mom3": 5.1,
-   "own": 23
+   "own": 23,
+   "pipe": 0.0
   },
   {
    "name": "El Paso",
    "rent": 1516,
    "yoy": 4.1,
    "mom3": 5.3,
-   "own": 14
+   "own": 14,
+   "pipe": 0.0
   },
   {
    "name": "Lincoln Park / Lakeview",
    "rent": 2697,
    "yoy": 7.8,
    "mom3": 9.5,
-   "own": 42
+   "own": 42,
+   "pipe": 0.0
   },
   {
    "name": "Loop / South Loop",
-   "rent": 2929,
-   "yoy": 4.7,
-   "mom3": 9.7,
-   "own": -16
+   "rent": 2984,
+   "yoy": 5.8,
+   "mom3": 7.0,
+   "own": -16,
+   "pipe": 0.0
   },
   {
    "name": "O'Hare / Schaumburg",
    "rent": 2124,
    "yoy": 2.9,
    "mom3": 1.8,
-   "own": 13
+   "own": 11,
+   "pipe": 0.0
   },
   {
    "name": "Naperville / DuPage",
    "rent": 2246,
    "yoy": 4.1,
    "mom3": 1.6,
-   "own": 57
+   "own": 57,
+   "pipe": 0.0
   },
   {
    "name": "Uptown / Downtown MPLS",
-   "rent": 1660,
-   "yoy": 3.4,
-   "mom3": 5.6,
-   "own": -3
+   "rent": 1518,
+   "yoy": 3.6,
+   "mom3": 4.2,
+   "own": 20,
+   "pipe": 0.0
   },
   {
    "name": "St. Paul / Suburbs",
    "rent": 1604,
    "yoy": 3.2,
    "mom3": 2.5,
-   "own": 10
+   "own": 10,
+   "pipe": 0.0
   },
   {
    "name": "Short North / Downtown CBUS",
    "rent": 1623,
    "yoy": 2.6,
    "mom3": 10.4,
-   "own": 35
+   "own": 35,
+   "pipe": 0.1
   },
   {
    "name": "Dublin / Polaris",
-   "rent": 1739,
-   "yoy": 4.0,
-   "mom3": 18.4,
-   "own": 62
+   "rent": 1658,
+   "yoy": 0.9,
+   "mom3": 6.4,
+   "own": 66,
+   "pipe": 0.1
   },
   {
    "name": "Cincinnati",
    "rent": 1491,
    "yoy": 2.0,
    "mom3": 7.4,
-   "own": 37
+   "own": 37,
+   "pipe": 0.1
   },
   {
    "name": "Cleveland",
@@ -604,416 +687,475 @@
   },
   {
    "name": "North Indy / Carmel",
-   "rent": 1571,
-   "yoy": 3.9,
-   "mom3": 8.6,
-   "own": 73
+   "rent": 1533,
+   "yoy": 0.4,
+   "mom3": 6.8,
+   "own": 50,
+   "pipe": 0.1
   },
   {
    "name": "Royal Oak / Troy",
    "rent": 1949,
    "yoy": 3.7,
    "mom3": 8.5,
-   "own": 33
+   "own": 33,
+   "pipe": 0.1
   },
   {
    "name": "Downtown / Midtown Detroit",
    "rent": 1750,
    "yoy": -0.3,
    "mom3": -4.4,
-   "own": 31
+   "own": 31,
+   "pipe": 0.1
   },
   {
    "name": "Plaza / Overland Park",
-   "rent": 1654,
-   "yoy": 2.8,
-   "mom3": 7.8,
-   "own": 82
+   "rent": 1695,
+   "yoy": 4.6,
+   "mom3": 16.2,
+   "own": 69,
+   "pipe": 0.1
   },
   {
    "name": "Clayton / Central West End",
    "rent": 1609,
    "yoy": 2.7,
    "mom3": 0.0,
-   "own": 119
+   "own": 119,
+   "pipe": 0.1
   },
   {
    "name": "East Side / Third Ward MKE",
    "rent": 1676,
    "yoy": 3.8,
    "mom3": 1.3,
-   "own": 66
+   "own": 66,
+   "pipe": 0.0
   },
   {
    "name": "Madison",
    "rent": 1709,
    "yoy": 1.9,
    "mom3": -1.8,
-   "own": 73
+   "own": 73,
+   "pipe": 0.2
   },
   {
    "name": "Grand Rapids",
    "rent": 1648,
    "yoy": 3.3,
    "mom3": -2.5,
-   "own": 38
+   "own": 38,
+   "pipe": 0.1
   },
   {
    "name": "Des Moines",
    "rent": 1310,
    "yoy": 1.3,
    "mom3": 0.6,
-   "own": 38
+   "own": 38,
+   "pipe": 0.1
   },
   {
    "name": "Omaha",
    "rent": 1334,
    "yoy": 1.6,
    "mom3": -8.3,
-   "own": 38
+   "own": 38,
+   "pipe": 0.2
   },
   {
    "name": "Oklahoma City",
    "rent": 1349,
    "yoy": 2.6,
    "mom3": 11.3,
-   "own": 27
+   "own": 27,
+   "pipe": 0.1
   },
   {
    "name": "Tulsa",
    "rent": 1244,
    "yoy": 1.0,
    "mom3": 1.2,
-   "own": 122
+   "own": 122,
+   "pipe": 0.1
   },
   {
    "name": "Aurora / DIA Corridor",
-   "rent": 1758,
-   "yoy": -1.1,
-   "mom3": 1.2,
-   "own": 69
+   "rent": 1643,
+   "yoy": -1.7,
+   "mom3": -1.6,
+   "own": 53,
+   "pipe": 0.1
   },
   {
    "name": "Lakewood / Wheat Ridge",
-   "rent": 1778,
-   "yoy": -0.6,
-   "mom3": 1.7,
-   "own": 109
+   "rent": 1846,
+   "yoy": 1.7,
+   "mom3": 10.5,
+   "own": 99,
+   "pipe": 0.1
   },
   {
    "name": "Westminster / Thornton",
-   "rent": 1822,
-   "yoy": 0.3,
-   "mom3": 4.7,
-   "own": 61
+   "rent": 1778,
+   "yoy": 0.8,
+   "mom3": 6.5,
+   "own": 76,
+   "pipe": 0.1
   },
   {
    "name": "DTC / Greenwood Village",
-   "rent": 1834,
-   "yoy": -1.0,
-   "mom3": 6.7,
-   "own": 104
+   "rent": 1913,
+   "yoy": -0.6,
+   "mom3": 9.7,
+   "own": 79,
+   "pipe": 0.1
   },
   {
    "name": "RiNo / Downtown Denver",
-   "rent": 2027,
-   "yoy": 0.1,
-   "mom3": 6.2,
-   "own": 49
+   "rent": 2050,
+   "yoy": 1.1,
+   "mom3": 7.5,
+   "own": 65,
+   "pipe": 0.1
   },
   {
    "name": "Colorado Springs N",
-   "rent": 1847,
-   "yoy": 2.0,
-   "mom3": 3.8,
-   "own": 88
+   "rent": 1904,
+   "yoy": 1.5,
+   "mom3": 6.1,
+   "own": 70,
+   "pipe": 0.1
   },
   {
    "name": "Colorado Springs SE",
-   "rent": 1550,
-   "yoy": 1.6,
-   "mom3": 10.9,
-   "own": 44
+   "rent": 1494,
+   "yoy": 0.6,
+   "mom3": 11.5,
+   "own": 49,
+   "pipe": 0.1
   },
   {
    "name": "Fort Collins / Loveland",
-   "rent": 1977,
-   "yoy": 2.2,
-   "mom3": 2.5,
-   "own": 74
+   "rent": 2024,
+   "yoy": 1.5,
+   "mom3": 3.0,
+   "own": 67,
+   "pipe": 0.1
   },
   {
    "name": "Greeley / Windsor",
-   "rent": 1687,
-   "yoy": -0.4,
-   "mom3": 3.0,
-   "own": 68
+   "rent": 1581,
+   "yoy": -1.6,
+   "mom3": 13.2,
+   "own": 76,
+   "pipe": 0.1
   },
   {
    "name": "Boise",
-   "rent": 2021,
-   "yoy": 6.2,
-   "mom3": 11.5,
-   "own": 85
+   "rent": 1909,
+   "yoy": 7.4,
+   "mom3": 15.6,
+   "own": 76,
+   "pipe": 0.1
   },
   {
    "name": "Salt Lake / Midvale",
-   "rent": 1588,
-   "yoy": -0.8,
-   "mom3": 1.1,
-   "own": 123
+   "rent": 1590,
+   "yoy": -1.5,
+   "mom3": -0.7,
+   "own": 103,
+   "pipe": 0.1
   },
   {
    "name": "Lehi / Utah County",
-   "rent": 1901,
-   "yoy": 2.9,
-   "mom3": 6.0,
-   "own": 96
+   "rent": 1770,
+   "yoy": 2.3,
+   "mom3": 1.4,
+   "own": 110,
+   "pipe": 0.1
   },
   {
    "name": "Downtown SLC",
-   "rent": 1653,
-   "yoy": 0.4,
-   "mom3": -2.5,
-   "own": 77
+   "rent": 1572,
+   "yoy": 0.8,
+   "mom3": -1.6,
+   "own": 81,
+   "pipe": 0.1
   },
   {
    "name": "Tempe / S Scottsdale",
-   "rent": 1764,
-   "yoy": 1.1,
-   "mom3": 2.9,
-   "own": 69
+   "rent": 1646,
+   "yoy": 0.7,
+   "mom3": 1.4,
+   "own": 76,
+   "pipe": 0.1
   },
   {
    "name": "Peoria / Arrowhead",
    "rent": 1835,
-   "yoy": 0.5,
-   "mom3": 4.8,
-   "own": 62
+   "yoy": 1.1,
+   "mom3": 7.7,
+   "own": 54,
+   "pipe": 0.1
   },
   {
    "name": "Mesa / Gilbert",
-   "rent": 1636,
-   "yoy": 1.6,
-   "mom3": 0.5,
-   "own": 67
+   "rent": 1420,
+   "yoy": 0.5,
+   "mom3": -1.5,
+   "own": 72,
+   "pipe": 0.1
   },
   {
    "name": "Downtown Phoenix",
-   "rent": 1668,
-   "yoy": -0.2,
-   "mom3": 5.6,
-   "own": 76
+   "rent": 1708,
+   "yoy": -1.4,
+   "mom3": 7.8,
+   "own": 53,
+   "pipe": 0.1
   },
   {
    "name": "Chandler",
-   "rent": 1776,
-   "yoy": 1.5,
-   "mom3": -0.3,
-   "own": 64
+   "rent": 1744,
+   "yoy": 1.4,
+   "mom3": -3.1,
+   "own": 62,
+   "pipe": 0.1
   },
   {
    "name": "Tucson",
    "rent": 1273,
    "yoy": 2.0,
    "mom3": 3.0,
-   "own": 81
+   "own": 81,
+   "pipe": 0.1
   },
   {
    "name": "Henderson",
-   "rent": 1879,
-   "yoy": -0.1,
-   "mom3": -3.2,
-   "own": 76
+   "rent": 1927,
+   "yoy": 0.6,
+   "mom3": -3.3,
+   "own": 71,
+   "pipe": 0.0
   },
   {
    "name": "Summerlin / NW Vegas",
-   "rent": 2495,
-   "yoy": 1.2,
-   "mom3": -2.3,
-   "own": 67
+   "rent": 2479,
+   "yoy": 2.0,
+   "mom3": -0.6,
+   "own": 81,
+   "pipe": 0.0
   },
   {
    "name": "Central Vegas / UNLV",
    "rent": 1713,
    "yoy": 1.4,
    "mom3": -1.7,
-   "own": 13
+   "own": 13,
+   "pipe": 0.0
   },
   {
    "name": "Albuquerque",
    "rent": 1318,
    "yoy": 1.9,
    "mom3": 12.4,
-   "own": 36
+   "own": 36,
+   "pipe": 0.1
   },
   {
    "name": "Reno",
-   "rent": 1877,
-   "yoy": 10.4,
-   "mom3": 5.7,
-   "own": 95
+   "rent": 1725,
+   "yoy": 6.7,
+   "mom3": -1.5,
+   "own": 133,
+   "pipe": 0.2
   },
   {
    "name": "Capitol Hill / Downtown SEA",
-   "rent": 2235,
-   "yoy": 0.3,
-   "mom3": 7.2,
-   "own": 97
+   "rent": 2063,
+   "yoy": -0.3,
+   "mom3": 0.9,
+   "own": 127,
+   "pipe": 0.1
   },
   {
    "name": "Bellevue / Redmond",
-   "rent": 2763,
-   "yoy": 1.8,
-   "mom3": 7.3,
-   "own": 262
+   "rent": 2626,
+   "yoy": 0.5,
+   "mom3": 6.1,
+   "own": 268,
+   "pipe": 0.1
   },
   {
    "name": "Ballard / Fremont",
    "rent": 2308,
    "yoy": 0.9,
    "mom3": 6.3,
-   "own": 134
+   "own": 134,
+   "pipe": 0.1
   },
   {
    "name": "Tacoma",
    "rent": 1691,
    "yoy": 1.8,
    "mom3": 4.5,
-   "own": 64
+   "own": 64,
+   "pipe": 0.1
   },
   {
    "name": "Spokane",
    "rent": 1720,
    "yoy": 5.3,
    "mom3": 4.9,
-   "own": 49
+   "own": 49,
+   "pipe": 0.1
   },
   {
    "name": "Inner East / Pearl PDX",
-   "rent": 1672,
-   "yoy": 1.5,
-   "mom3": 0.0,
-   "own": 109
+   "rent": 1682,
+   "yoy": 2.2,
+   "mom3": 1.3,
+   "own": 144,
+   "pipe": 0.0
   },
   {
    "name": "Beaverton / Hillsboro",
-   "rent": 1892,
-   "yoy": -0.4,
-   "mom3": 5.1,
-   "own": 67
+   "rent": 1896,
+   "yoy": -1.1,
+   "mom3": 8.1,
+   "own": 63,
+   "pipe": 0.0
   },
   {
    "name": "San Francisco",
-   "rent": 4389,
-   "yoy": 27.3,
-   "mom3": 57.7,
-   "own": 93
+   "rent": 4590,
+   "yoy": 27.4,
+   "mom3": 65.0,
+   "own": 96,
+   "pipe": 0.0
   },
   {
    "name": "Oakland / East Bay",
-   "rent": 2722,
-   "yoy": 11.2,
-   "mom3": 24.2,
-   "own": 73
+   "rent": 2742,
+   "yoy": 12.4,
+   "mom3": 26.6,
+   "own": 21,
+   "pipe": 0.0
   },
   {
    "name": "San Jose / Silicon Valley",
-   "rent": 3295,
-   "yoy": 6.4,
-   "mom3": 17.1,
-   "own": 86
+   "rent": 3305,
+   "yoy": 7.4,
+   "mom3": 18.4,
+   "own": 84,
+   "pipe": 0.0
   },
   {
    "name": "Koreatown / Mid-City",
-   "rent": 2118,
-   "yoy": -0.9,
-   "mom3": -1.7,
-   "own": 123
+   "rent": 1977,
+   "yoy": -0.7,
+   "mom3": -0.5,
+   "own": 132,
+   "pipe": 0.0
   },
   {
    "name": "Santa Monica / West LA",
-   "rent": 3353,
+   "rent": 3313,
    "yoy": 1.5,
-   "mom3": -1.3,
-   "own": 145
+   "mom3": -8.0,
+   "own": 99,
+   "pipe": 0.0
   },
   {
    "name": "DTLA",
-   "rent": 2693,
-   "yoy": 0.6,
-   "mom3": 5.5,
-   "own": 32
+   "rent": 2738,
+   "yoy": 1.4,
+   "mom3": 8.2,
+   "own": 33,
+   "pipe": 0.0
   },
   {
    "name": "Pasadena / Glendale",
-   "rent": 2573,
-   "yoy": -0.0,
-   "mom3": 3.1,
-   "own": 122
+   "rent": 2419,
+   "yoy": -2.1,
+   "mom3": -7.4,
+   "own": 121,
+   "pipe": 0.0
   },
   {
    "name": "Irvine / South OC",
-   "rent": 3471,
-   "yoy": 1.1,
-   "mom3": 4.0,
-   "own": 135
+   "rent": 3443,
+   "yoy": 0.4,
+   "mom3": 5.0,
+   "own": 119,
+   "pipe": 0.2
   },
   {
    "name": "Anaheim / North OC",
    "rent": 2719,
    "yoy": 4.6,
    "mom3": 2.3,
-   "own": 98
+   "own": 98,
+   "pipe": 0.2
   },
   {
    "name": "Riverside",
    "rent": 2480,
    "yoy": 2.5,
    "mom3": 1.9,
-   "own": 48
+   "own": 48,
+   "pipe": 0.1
   },
   {
    "name": "Ontario / Rancho",
-   "rent": 2718,
-   "yoy": 2.1,
-   "mom3": 8.5,
-   "own": 74
+   "rent": 2762,
+   "yoy": 1.8,
+   "mom3": 3.6,
+   "own": 53,
+   "pipe": 0.1
   },
   {
    "name": "North County / Carlsbad",
-   "rent": 3667,
+   "rent": 3756,
    "yoy": 5.4,
-   "mom3": 7.7,
-   "own": 182
+   "mom3": 7.0,
+   "own": 166,
+   "pipe": 0.1
   },
   {
    "name": "Mission Valley / Central SD",
-   "rent": 3092,
-   "yoy": 0.6,
-   "mom3": 6.7,
-   "own": 71
+   "rent": 3102,
+   "yoy": 0.1,
+   "mom3": 6.1,
+   "own": 92,
+   "pipe": 0.1
   },
   {
    "name": "Midtown / East Sac",
-   "rent": 2108,
-   "yoy": 1.7,
-   "mom3": 10.0,
-   "own": 97
+   "rent": 2013,
+   "yoy": -2.2,
+   "mom3": 1.5,
+   "own": 123,
+   "pipe": 0.1
   },
   {
    "name": "Roseville / Folsom",
-   "rent": 2426,
-   "yoy": 1.5,
-   "mom3": -1.9,
-   "own": 72
+   "rent": 2435,
+   "yoy": 2.3,
+   "mom3": -0.3,
+   "own": 78,
+   "pipe": 0.1
   },
   {
    "name": "Fresno",
    "rent": 1900,
    "yoy": 2.9,
    "mom3": 2.3,
-   "own": 44
+   "own": 44,
+   "pipe": 0.0
   }
  ]
 }
